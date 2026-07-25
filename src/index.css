@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0f111a;
+  --color-surface: #1e2230;
+  --color-primary: #a855f7; /* purple */
+  --color-secondary: #06b6d4; /* cyan */
+}
+
+body {
+  background-color: var(--color-background);
+  color: white;
+}
